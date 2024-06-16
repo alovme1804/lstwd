@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.postcard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.letter, .address {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.message_form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e9ecef;
+}
+
+input[type="text"][readonly], input[type="email"][readonly], textarea[readonly] {
+  background-color: #e9ecef;
+  color: #6c757d;
+}
+
+.push {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+}
